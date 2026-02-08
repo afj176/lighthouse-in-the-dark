@@ -6,52 +6,78 @@
 
 # Lighthouse In The Dark
 
+A retro 80s neon color theme for Visual Studio Code with four carefully crafted variants.
+
+## Theme Variants
+
+| Theme | Background | Accent | Vibe |
+|-------|------------|--------|------|
+| **Boon Island Dark** | Pure black | Electric Cyan | Neon arcade |
+| **Boon Island Light** | White | Teal | Clean neon |
+| **Rose Island Dark** | Warm brown | Hot Pink | Synthwave |
+| **Rose Island Light** | Tan/cream | Rose | Warm retro |
+
 ## Installation
 
-1. Open the **Extensions** sidebar in VS Code
+1. Open **Extensions** sidebar in VS Code
 2. Search for `Lighthouse In The Dark`
 3. Click **Install**
-4. Open the **Command Palette** with `Ctrl+Shift+P` or `⇧⌘P`
-5. Select **Preferences: Color Theme** and choose a `Lighthouse In The Dark` variant.
+4. `Ctrl+Shift+P` / `Cmd+Shift+P` → **Preferences: Color Theme**
+5. Select your preferred variant
 
-`Lighthouse In The Dark` is a group of themes using rich or pastel color themes.
+## Features
 
-`Lighthouse In The Dark` currently has four versions.
+**Syntax Highlighting**
+- 35+ token scopes for precise highlighting
+- TypeScript, JavaScript, Python, Go, Rust, HTML, CSS, JSON, Markdown
+- Distinct colors for keywords, functions, variables, types, and operators
 
--   `Boon Island Light` background is a white and green UI with vibrant colors
--   `Boon Island Dark` background is a black and green UI with vibrant colors
--   `Rose Island Light` backgorund is a tan and rose UI with rich colors
--   `Rose Island Dark` background is a brown and rose UI with vibrant colors
+**UI Colors**
+- Complete UI theming: editor, sidebar, tabs, statusbar, terminal
+- Git decorations for added, modified, deleted, and untracked files
+- Diff editor with clear insert/remove backgrounds
+- Find/replace highlighting with visible borders
+- Bracket matching and indent guides
 
-<div align="left">
+**Terminal**
+- Full 16-color ANSI palette with 80s neon aesthetic
+- Bright variants for bold text
+
+**Accessibility**
+- All token colors meet WCAG contrast requirements
+- Carefully balanced for extended coding sessions
 
 ---
 
-The font used in screenshots is called [Gohu](https://www.nerdfonts.com/font-downloads)
-
-- Download and install from nerd fonts found [here](https://www.nerdfonts.com/font-downloads). 
-- Open Settings: Go to File > Preferences > Settings. 
-- Search for "font family" In the search bar
-- Set the font to: `GohuFont Nerd Font Mono`
-
----
-</div>
-<div align="center">
-
-### Boon Island Light
-
-![Boon Island Light Screenshot](https://i.imgur.com/zXXYujc.png)
+## Theme Previews
 
 ### Boon Island Dark
+![Boon Island Dark](images/boon-island-dark.png)
 
-![Boon Island Dark Screenshot](https://i.imgur.com/tHE30Ve.png)
-
-### Rose Island Light
-
-![Rose Island Light Screenshot](https://i.imgur.com/QbhhEed.png)
+### Boon Island Light
+![Boon Island Light](images/boon-island-light.png)
 
 ### Rose Island Dark
+![Rose Island Dark](images/rose-island-dark.png)
 
-![Rose Island Dark Screenshot](https://i.imgur.com/OphJ2DM.png)
+### Rose Island Light
+![Rose Island Light](images/rose-island-light.png)
 
-</div>
+---
+
+## Development
+
+```bash
+# Package extension
+vsce package
+
+# Install locally
+code --install-extension lighthouse-in-the-dark-0.1.0.vsix
+
+# Test in VS Code
+# Press F5 to launch Extension Development Host
+```
+
+## Contributing
+
+Issues and PRs welcome at [GitHub](https://github.com/afj176/lighthouse-in-the-dark)

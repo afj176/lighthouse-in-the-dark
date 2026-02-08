@@ -2,7 +2,7 @@
 	"name": "lighthouse-in-the-dark",
 	"displayName": "Lighthouse In The Dark",
 	"description": "A retro 80s neon theme with light and dark versions.",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"publisher": "CodeTime",
 	"engines": {
 		"vscode": "^1.50.0"
